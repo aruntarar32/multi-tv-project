@@ -1,0 +1,232 @@
+@media (max-width: 1200px){
+    .logo .logo-light {
+        display: block;
+    }
+}
+/* Hero section (banner) css start here */
+@media (max-width: 1200px){
+.home {
+    min-height: 100%;
+    padding: 50px 0;
+}
+
+}
+
+@media (max-width: 991px) {
+    .slider-container {
+        flex-direction: column;
+    }
+
+    .slider-text {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .slider-image {
+        width: 100%;
+    }
+
+    .slider-buttons {
+        justify-content: center;
+    }
+
+    .feature-list {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .feature-item {
+        width: 100%;
+        /* padding: 10px; */
+        padding: 0px 0px 0px 10px;
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 767px) {
+
+    .line{
+        display: none;
+    }
+    .slider-text h1 {
+        font-size: 1.8rem;
+    }
+    .about_section_2 .stat-left{
+        left: -8%;
+    }
+    .about_section_2 .stat-bottom{
+        right: -9%;
+    }
+    .about_section_2 .stat-top{
+        right: -8%;
+    }
+    .slider-text p {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+
+    .feature-item {
+        font-size: 0.9rem;
+    }
+
+    .slider-image {
+        width: 100%;
+    }
+
+    .slider-img {
+        border-radius: 10px;
+    }
+
+    .custom-box, .custom-box2{
+        clip-path: unset;
+    }
+    .card_text_container, .card_text_container2{
+            margin-left: 0px;
+            margin-right: 0px;
+            padding: 10px;
+    }
+
+    .custom-box img, .custom-box2 img{
+        transform: unset;
+    }
+
+
+    .case_study_section .card{
+        width: 100%;
+    }
+
+    .about_section_2{
+        padding-top: 10px;
+    }
+    .about_title_2{
+        padding-bottom: 10px;
+          padding-top: 20px;
+    }
+    .parallex_para{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .case_study_section .card-slider{
+        margin-top:10px;
+    }
+    .footer{
+        padding: 100px 0px 20px 0px;
+    }
+    .subscription-container{
+        top:50px;
+    }
+}
+
+/* Small mobile devices */
+@media (max-width: 575px) {
+    .slider-text h1 {
+        font-size: 1.5rem;
+    }
+
+    .slider-text p {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        font-size: 0.8rem;
+        padding: 8px 15px;
+    }
+
+    .feature-item {
+        font-size: 0.8rem;
+    }
+
+    .slider-image {
+        width: 100%;
+    }
+
+    .slider-img {
+        border-radius: 8px;
+    }
+    .about_section_2 .content-box{
+        padding-left: 0px;
+    }
+    .parallex_para{
+        padding: 0px 0px;
+    }
+    .control_icon{
+        border-radius: 5px 5px 5px 5px;
+    }
+    
+}
+
+
+/* Hero section (banner) css end here */
+
+
+
+
+
+@media (max-width: 768px) {
+    .subscription-container {
+        padding: 30px 20px;
+    }
+
+    .subscription-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .subscription-content p {
+        font-size: 0.9rem;
+    }
+
+    .subscription-form {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .subscription-form input[type="email"] {
+        width: 100%;
+    }
+
+    .subscription-form button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .subscription-container {
+        padding: 20px 15px;
+    }
+
+    .subscription-content h1 {
+        font-size: 1.2rem;
+    }
+
+    .subscription-content p {
+        font-size: 0.8rem;
+    }
+
+    .subscription-form button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+}
+
+#mobileCarousel{
+    display: none;
+}
+.destopCarousel{
+    display: block;
+ }
+@media (max-width: 992px) {
+   #destopCarousel{
+     display: none;
+  }
+  #mobileCarousel{
+    display: block;
+  }
+}
